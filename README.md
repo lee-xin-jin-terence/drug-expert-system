@@ -92,19 +92,19 @@ Overall, DrugES successfully demonstrates a rule‑based expert system for pre-h
 
 ## References
 
-\[1] Wilson MH et al. “Pre-hospital emergency medicine,” *Lancet*, 2015.
-\[2] WHO. “Opioid Overdose.” Accessed 31 May 2021.
-\[3] Riba MB, *Clinical Manual of Emergency Psychiatry*, 2010.
-\[4] NHS Digital. “Statistics on Drug Misuse, England, 2019.”
-\[5] CDC. “Drug Overdose Deaths,” 2021.
-\[6] CIHI. “Hospital visits for substance use increased…,” 2021.
-\[7] Söderqvist M et al. “Substance Abuse Among EMS Patients,” *Point of Care*, 2018.
-\[8] Negnevitsky M, *Artificial Intelligence: A Guide to Intelligent Systems*, 2011.
-\[9] Wyatt JP et al., *Oxford Handbook of Emergency Medicine*, 2020.
-\[10] Leikin JB & Paloucek FP, *Poisoning and Toxicology Handbook*, 2008.
-\[11] ES-Builder Web, McGoo Software. Accessed 31 May 2021.
-\[12] WHO. “Coronavirus.” Accessed 31 May 2021.
-\[13] UNODC. “What are NPS?” Accessed 15 Jul 2021.
+\[1] Wilson MH et al. “Pre-hospital emergency medicine,” *Lancet*, 2015.<br/>
+\[2] WHO. “Opioid Overdose.” Accessed 31 May 2021.<br/>
+\[3] Riba MB, *Clinical Manual of Emergency Psychiatry*, 2010.<br/>
+\[4] NHS Digital. “Statistics on Drug Misuse, England, 2019.”<br/>
+\[5] CDC. “Drug Overdose Deaths,” 2021.<br/>
+\[6] CIHI. “Hospital visits for substance use increased…,” 2021.<br/>
+\[7] Söderqvist M et al. “Substance Abuse Among EMS Patients,” *Point of Care*, 2018.<br/>
+\[8] Negnevitsky M, *Artificial Intelligence: A Guide to Intelligent Systems*, 2011.<br/>
+\[9] Wyatt JP et al., *Oxford Handbook of Emergency Medicine*, 2020.<br/>
+\[10] Leikin JB & Paloucek FP, *Poisoning and Toxicology Handbook*, 2008.<br/>
+\[11] ES-Builder Web, McGoo Software. Accessed 31 May 2021.<br/>
+\[12] WHO. “Coronavirus.” Accessed 31 May 2021.<br/>
+\[13] UNODC. “What are NPS?” Accessed 15 Jul 2021.<br/>
 
 ## Appendix: DrugES Usability Questionnaire
 
