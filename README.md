@@ -77,9 +77,9 @@ DrugES is implemented in **ES-Builder**, a web‑based expert system shell \[11]
 ## Results
 
 | Test                     | Passed | Failed | Total | Pass Rate |
-| ------------------------ | :----: | :----: | :---: | :-------: |
-| Correctness of diagnosis |   16   |    0   |   16  |    100%   |
-| Efficiency (≤120s)       |   16   |    0   |   16  |    100%   |
+| ------------------------ | ------ | ------ | ----- | --------- |
+| Correctness of diagnosis | 16     | 0      | 16    | 100%      |
+| Efficiency (≤120s)       | 16     | 0      | 16    | 100%      |
 
 ## Conclusion
 
@@ -106,9 +106,39 @@ Overall, DrugES successfully demonstrates a rule‑based expert system for pre-h
 \[12] WHO. “Coronavirus.” Accessed 31 May 2021.<br/>
 \[13] UNODC. “What are NPS?” Accessed 15 Jul 2021.<br/>
 
-## Appendix: DrugES Usability Questionnaire
+## Appendix: DrugES Usefulness and Ease of Use Questionnaire
 
-*For pre-hospital personnel; 7 questions on utility and ease of use, rated Strongly Disagree → Strongly Agree.*
+**For Medics (Pre-hospital Personnel)**
+
+This questionnaire gauges the usefulness and ease of use of DrugES. Please circle the most appropriate answer for each statement.
+
+1. I find DrugES useful and will likely use it if the need arises.
+
+   * Strongly Disagree  |  Disagree  |  Agree  |  Strongly Agree
+
+2. DrugES is likely to make pre-hospital treatment of suspected substance abuse patients more efficient.
+
+   * Strongly Disagree  |  Disagree  |  Agree  |  Strongly Agree
+
+3. The diagnosis and treatment advice provided was sufficiently detailed for my needs as a medic.
+
+   * Strongly Disagree  |  Disagree  |  Agree  |  Strongly Agree
+
+4. The diagnosis and treatment advice provided was delivered quickly enough for my needs as a medic.
+
+   * Strongly Disagree  |  Disagree  |  Agree  |  Strongly Agree
+
+5. DrugES is easy to use and navigate.
+
+   * Strongly Disagree  |  Disagree  |  Agree  |  Strongly Agree
+
+6. I am satisfied with DrugES.
+
+   * Strongly Disagree  |  Disagree  |  Agree  |  Strongly Agree
+
+7. I would recommend DrugES to other medics for use.
+
+   * Strongly Disagree  |  Disagree  |  Agree  |  Strongly Agree
 
 ## User Guide
 
