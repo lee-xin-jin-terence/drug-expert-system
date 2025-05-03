@@ -7,12 +7,11 @@
 
 ## Introduction
 
-This report describes an expert system called **DrugES** that provides quick diagnosis and treatment advice for suspected substance abuse poisoning patients during pre-hospital emergency care. *Pre-hospital emergency care* refers to the care offered by emergency medical responders before reaching the hospital \[1].
+This report describes an expert system called **DrugES** that provides quick diagnosis and treatment advice for suspected substance abuse poisoning patients during pre-hospital emergency care. *Pre-hospital emergency care* refers to the care offered to patients by emergency medical responders before reaching the hospital \[1].
 
-Diagnosing substance abuse poisoning in a pre-hospital setting (e.g., inside an ambulance) can be challenging due to limited medical equipment. However, knowing the type of poisoning can enable life‑saving interventions. For instance:
+It can be challenging to diagnose suspected substance abuse poisoning in a pre-hospital setting (e.g. inside an ambulance) when there is limited access to medical equipment. However, knowledge of the type of substance abuse poisoning can provide valuable life-saving medical treatment for patients.
 
-* **Opioid overdoses** can be reversed if **Naloxone** is administered promptly \[2].
-* **CNS stimulant intoxication** (e.g., cocaine) can cause cardiovascular or cerebrovascular failure; **benzodiazepine sedation** may mitigate severe effects \[3].
+For example, death from opioid overdose can be avoided if the antidote Naloxone is administered on time \[2]. Central nervous system (CNS) stimulant intoxication from drugs such as cocaine can be fatal in severe cases, usually from cardiovascular or cerebrovascular causes. Pre-hospital treatments, such as sedation using benzodiazepines (BZDs), can provide some degree of safeguard against the harmful effects of CNS stimulants \[3].
 
 ## Goals of DrugES
 
@@ -25,75 +24,128 @@ Diagnosing substance abuse poisoning in a pre-hospital setting (e.g., inside an 
 
 ## Background Information
 
-### Substance Abuse Statistics
+### A. Substance Abuse Statistics
 
-* **England (2019):** >18,000 hospitalisations due to drug misuse (NHS) \[4].
-* **USA (2019):** >70,000 overdose‑related deaths (CDC) \[5].
-* **Canada (2020):** <br/>\~81,000 hospitalisations from substance abuse (CIHI) \[6].
+In 2019, according to the National Health Service (NHS), poisoning by drug misuse accounted for more than 18,000 hospitalisations in England, United Kingdom \[4]. In the same year, more than 70,000 drug overdose-related deaths occurred in the United States \[5]. In addition, the Canadian Institute for Health Information (CIHI) reports that nearly 81,000 Canadians were hospitalised due to substance abuse in 2020 \[6].
 
-### Related Work
+### B. Related Works
 
-No expert system currently diagnoses pre-hospital substance poisoning. An oral fluid screening device diagnosed amphetamines but failed on cannabis, cocaine, and opiates—and lacked treatment advice \[7].
+There have been no similar expert systems developed to provide a pre-hospital diagnosis of suspected substance abuse poisoning. However, there was an attempt to screen for substance abuse in a pre-hospital setting through the use of oral fluid screening equipment \[7]. The equipment was sufficiently accurate in screening for amphetamine-type drugs but failed to detect other classes of drugs such as cannabis, cocaine, and opiates. Moreover, the screening device could only test for the presence of drugs and lacked the provision of important pre-hospital medical advice for treating suspected substance overdose patients.
 
 ## AI Methods and Tools
 
-### A. Rule-Based Forward Chaining
+### A. AI Method: Rule-based Forward Chaining
 
-DrugES uses **forward chaining** to infer substance poisoning from user‑entered symptoms \[8]. Medical rules are represented as IF–THEN statements:
+DrugES uses a rule-based forward-chaining approach \[8] to infer the type of substance abuse based on the patient’s symptoms. The medical knowledge base is represented by multiple IF–THEN rules. First, the user inputs the patient’s symptoms. The inference engine then applies the rules to determine the suspected substance poisoning type.
 
-**Example Rule**:
+Based on the inferred poisoning, DrugES provides relevant pre-hospital treatment advice. For example:
+
+**RULE 1:**
 
 ```
 IF pupils are pinpoint
   AND difficulty breathing
   AND unconscious
-THEN opioid overdose → administer Naloxone
+THEN patient is suffering from an opioid overdose → administer Naloxone
 ```
 
-DrugES logs each inference step to justify its advice.
+DrugES logs each inference step, ensuring that users can trace and understand its reasoning, which builds trust in the system’s advice.
 
-### B. Knowledge Sources
+### B. DrugES Knowledge Source
 
-Rules derive from medical texts:
+The AI knowledge base is drawn from reputable medical textbooks and toxicology manuals, including:
 
 * *Oxford Handbook of Emergency Medicine* \[9]
 * *Poisoning and Toxicology Handbook* \[10]
 
+These sources inform the IF–THEN rules used by DrugES.
+
 ### C. Implementation: ES-Builder Shell
 
-DrugES is implemented in **ES-Builder**, a web‑based expert system shell \[11]. It supports forward chaining and provides a GUI with simple Yes/No prompts—no scripting required.
+DrugES is implemented using **ES-Builder**, a web-based expert system shell \[11]. ES-Builder:
+
+* Requires no installation (accessible via web browser)
+* Supports forward-chaining inference
+* Features a GUI with simple Yes/No prompts (no scripting needed)
+
+This implementation ensures ease of development and usability for pre-hospital staff.
 
 ## Evaluation Method
 
-### Test 1: Correctness of Diagnosis and Advice
+DrugES is evaluated based on three different tests, but only the first two tests are conducted. The last test cannot be conducted due to the lack of time and prior approval.
 
-* Validates DrugES against expected outcomes for all symptom combinations.
-* **Result:** 16/16 correct (100%).
+### A. Test 1: Testing Correctness of Diagnosis and Treatment Advice
 
-### Test 2: Efficiency of Diagnosis
+This test is conducted to check whether DrugES gives the expected diagnosis and treatment advice based on a patient's symptoms. This test does not verify the accuracy of the diagnosis and treatment advice but validates that DrugES is working as expected.
 
-* Estimates time per test using typical observation durations (e.g., pupil check = 5s).
-* **Result:** 75% within 60s, 25% within 120s; all under 2 minutes.
+Each possible combination of symptoms will be tested and checked against its expected diagnosis and treatment advice. The overall score will be calculated as a percentage of correct diagnoses and treatment advice against the total number of diagnoses and treatment advice.
 
-### Test 3: Usefulness & Usability
+### B. Test 2: Testing Efficiency of DrugES in Diagnosis
 
-* Planned questionnaire for 50 pre-hospital staff (requires ethics approval). Not conducted due to time and COVID‑19 constraints.
+The best way to test for DrugES efficiency is to run a simulated field test where two people will test out DrugES using a medical dummy. One person will be in-charged of directly interacting with DrugES, while the other will be executing actions instructed by DrugES. However, it is impossible to test it in such a manner due to the lack of a partner.
+
+Instead, a time-based estimation is used to estimate the time required to make a particular observation. For example, measuring rectal temperature is estimated to take around 20 seconds, while checking whether the patient's pupils are dilated would take around 5 seconds.
+
+This test would pass when the time taken for each test case takes no more than two minutes. Each test case needs to take no more than two minutes because time is precious in a pre-hospital environment. Therefore, it is crucial to provide a quick diagnosis to ensure that a suspected substance poisoning patient receives speedy pre-hospital treatment before reaching the hospital.
+
+### C. Test 3: Testing Usefulness and Ease of Use
+
+A group of 50 pre-hospital staff from various hospitals would be invited to test out DrugES. A questionnaire would be issued to these staff whether DrugES is sufficiently useful and is easy to use. If at least 45 pre-hospital staff (90%) agree that DrugES is sufficiently useful and easy to use, then DrugES would pass this aspect of the test. Refer to the Appendix for the questionnaire.
+
+However, this test cannot be conducted as it requires prior approval from Murdoch University’s Research Ethics Committee. The tight project schedule and the prevalence of the Covid-19 pandemic \[12] also made it difficult to liaise with hospitals.
 
 ## Results
 
-| Test                     | Passed | Failed | Total | Pass Rate |
-| ------------------------ | ------ | ------ | ----- | --------- |
-| Correctness of diagnosis | 16     | 0      | 16    | 100%      |
-| Efficiency (≤120s)       | 16     | 0      | 16    | 100%      |
+Only the results for the first two testable tests are shown. Test 3 will not be shown here as it cannot be tested, as explained in the previous section.
+
+### A. Test 1: Testing Correctness of Diagnosis and Treatment Advice
+
+Each combination of substance poisoning symptoms input resulted in the expected substance poisoning diagnosis and treatment advice. This test passed. The results are detailed in Table I below.
+
+**TABLE I**
+Results for Test 1: Correctness of Diagnosis and Treatment Advice
+
+|                                          | Count | Percentage of Total Count (%) |
+| ---------------------------------------- | :---: | :---------------------------: |
+| Correct Diagnosis and Treatment Advice   |   16  |              100              |
+| Incorrect Diagnosis and Treatment Advice |   0   |               0               |
+| **Total**                                |   16  |              100              |
+
+### B. Test 2: Testing Efficiency of DrugES in Diagnosis
+
+The time taken to obtain a diagnosis and treatment advice from DrugES is estimated and calculated. All the test cases passed this test.
+
+According to Table II below, most of the diagnoses take no more than 60 seconds (1 minute), much shorter than the maximum passing time of 120 seconds (2 minutes). Only a quarter of the test cases take more than 60 seconds but still within the maximum passing time of 120 seconds.
+
+This shows that DrugES can provide speedy diagnosis and treatment advice for suspected substance poisoning patients. However, this test may not be entirely accurate as it is just an estimation. For a more accurate test, a simulated field test should be conducted.
+
+**TABLE II**
+Results for Test 2: Efficiency of DrugES in Diagnosis
+
+|                                                    | Count | Percentage of Total Count (%) |
+| -------------------------------------------------- | :---: | :---------------------------: |
+| Within 60 seconds (Pass)                           |   12  |               75              |
+| More than 60 seconds but within 120 seconds (Pass) |   4   |               25              |
+| More than 120 seconds (Fail)                       |   0   |               0               |
+| **Total**                                          |   16  |              100              |
 
 ## Conclusion
 
-DrugES meets most goals: accurate, explainable diagnoses and advice within two minutes for five substance groups. Usability testing remains outstanding. Future work could address:
+Most of the goals were reached. DrugES provides diagnoses and treatment advice for five commonly abused substance types. DrugES can provide a quick diagnosis and treatment advice within two minutes based on the test results. It can also explain how it reached a particular diagnosis, which is natively provided by the ES-Builder tool used.
 
-* **Substance specificity:** Current rules cover general classes (e.g., opioids), not individual drugs.
-* **New psychoactive substances (NPS):** NPS effects are poorly understood \[13].
+Two goals cannot be confirmed whether they were reached: the usefulness and ease of use of DrugES. These two goals require tests that need the use of questionnaires, which cannot be conducted due to the lack of time and prior approval.
 
-Overall, DrugES successfully demonstrates a rule‑based expert system for pre-hospital poisoning care.
+Despite the inability to conduct specific tests, the outcome of the project was expected. Planning, implementation, and testing of DrugES went very smoothly, except for a minor problem.
+
+One problem faced was the nature of substance poisoning, where multiple types of poisonings shared many similar symptoms. This problem was overcome by small but significant differences that allow unique identification of a particular substance poisoning.
+
+For this project, the effects of substance abuse poisoning and its associated treatment are the major learning points of this project.
+
+A shortcoming of DrugES is that DrugES diagnoses are based on general substance groups, such as opioids, CNS stimulants, and cannabinoids instead of specific substances. This is made difficult by the similarity of symptoms as mentioned above across various general substance groups. Fortunately, treatment for substance poisoning in medical textbooks is generally written based on the general substance groups instead of specific substances.
+
+Another shortcoming of DrugES is that it does not cover new psychoactive substances (NPS). NPS are synthetic drugs that imitate a wide range of illegally trafficked drugs while attempting to pose as legal drugs. However, the poisoning effects of NPS are still not fully known and understood \[13]. Perhaps in a follow-up project, NPS can be covered in DrugES.
+
+In conclusion, DrugES has been a successful project. It reached most of its goals.
 
 ## References
 
