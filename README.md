@@ -149,18 +149,18 @@ In conclusion, DrugES has been a successful project. It reached most of its goal
 
 ## References
 
-\[1] M. H. Wilson, K. Habig, C. Wright, A. Hughes, G. Davies, and C. H. Imray, “Pre-hospital emergency medicine,” *The Lancet*, vol. 386, no. 10012, pp. 2526–2534, Dec. 2015.
-\[2] “Opioid Overdose”, World Health Organization. \[Online]. Available: [https://www.who.int/news-room/fact-sheets/detail/opioid-overdose](https://www.who.int/news-room/fact-sheets/detail/opioid-overdose). \[Accessed: 31-May-2021].
-\[3] M. B. Riba, in *Clinical Manual of Emergency Psychiatry*, Washington, DC: American Psychiatric Publishing, Inc., 2010, p. 200.
-\[4] “Statistics on Drug Misuse, England, 2019,” NHS Digital. \[Online]. Available: [https://digital.nhs.uk/data-and-information/publications/statistical/statistics-on-drug-misuse/2019/part-1-hospital-admissions-related-to-drug-misuse](https://digital.nhs.uk/data-and-information/publications/statistical/statistics-on-drug-misuse/2019/part-1-hospital-admissions-related-to-drug-misuse). \[Accessed: 31-May-2021].
-\[5] “Drug Overdose Deaths,” Centers for Disease Control and Prevention, 03-Mar-2021. \[Online]. Available: [https://www.cdc.gov/drugoverdose/data/statedeaths.html](https://www.cdc.gov/drugoverdose/data/statedeaths.html). \[Accessed: 31-May-2021].
-\[6] “Hospital visits for substance use increased during the first months of the pandemic,” CIHI, 06-May-2021. \[Online]. Available: [https://www.cihi.ca/en/hospital-visits-for-substance-use-increased-during-the-first-months-of-the-pandemic](https://www.cihi.ca/en/hospital-visits-for-substance-use-increased-during-the-first-months-of-the-pandemic). \[Accessed: 31-May-2021].
-\[7] M. Söderqvist, J. Virta, and A. Kämäräinen, “Substance Abuse Among Emergency Medical Service Patients,” *Point of Care: The Journal of Near-Patient Testing & Technology*, vol. 17, no. 2, pp. 47–49, 2018.
-\[8] M. Negnevitsky, in *Artificial Intelligence: A Guide to Intelligent Systems*, Essex: Addison-Wesley/Pearson, 2011, pp. 35–38.
-\[9] J. P. Wyatt, R. G. Taylor, K. de Wit, and E. J. Hotton, *Oxford Handbook of Emergency Medicine*, Oxford University Press, 2020.
-\[10] J. B. Leikin and F. P. Paloucek, *Poisoning and Toxicology Handbook*, Boca Raton: CRC Press, 2008.
-\[11] ES-Builder Web - McGoo Software. \[Online]. Available: [https://www.mcgoo.com.au/html/es-builder\_web.php](https://www.mcgoo.com.au/html/es-builder_web.php). \[Accessed: 31-May-2021].
-\[12] “Coronavirus,” World Health Organization. \[Online]. Available: [https://www.who.int/health-topics/coronavirus](https://www.who.int/health-topics/coronavirus). \[Accessed: 31-May-2021].
+\[1] M. H. Wilson, K. Habig, C. Wright, A. Hughes, G. Davies, and C. H. Imray, “Pre-hospital emergency medicine,” *The Lancet*, vol. 386, no. 10012, pp. 2526–2534, Dec. 2015.<br/>
+\[2] “Opioid Overdose”, World Health Organization. \[Online]. Available: [https://www.who.int/news-room/fact-sheets/detail/opioid-overdose](https://www.who.int/news-room/fact-sheets/detail/opioid-overdose). \[Accessed: 31-May-2021].<br/>
+\[3] M. B. Riba, in *Clinical Manual of Emergency Psychiatry*, Washington, DC: American Psychiatric Publishing, Inc., 2010, p. 200.<br/>
+\[4] “Statistics on Drug Misuse, England, 2019,” NHS Digital. \[Online]. Available: [https://digital.nhs.uk/data-and-information/publications/statistical/statistics-on-drug-misuse/2019/part-1-hospital-admissions-related-to-drug-misuse](https://digital.nhs.uk/data-and-information/publications/statistical/statistics-on-drug-misuse/2019/part-1-hospital-admissions-related-to-drug-misuse). \[Accessed: 31-May-2021].<br/>
+\[5] “Drug Overdose Deaths,” Centers for Disease Control and Prevention, 03-Mar-2021. \[Online]. Available: [https://www.cdc.gov/drugoverdose/data/statedeaths.html](https://www.cdc.gov/drugoverdose/data/statedeaths.html). \[Accessed: 31-May-2021].<br/>
+\[6] “Hospital visits for substance use increased during the first months of the pandemic,” CIHI, 06-May-2021. \[Online]. Available: [https://www.cihi.ca/en/hospital-visits-for-substance-use-increased-during-the-first-months-of-the-pandemic](https://www.cihi.ca/en/hospital-visits-for-substance-use-increased-during-the-first-months-of-the-pandemic). \[Accessed: 31-May-2021].<br/>
+\[7] M. Söderqvist, J. Virta, and A. Kämäräinen, “Substance Abuse Among Emergency Medical Service Patients,” *Point of Care: The Journal of Near-Patient Testing & Technology*, vol. 17, no. 2, pp. 47–49, 2018.<br/>
+\[8] M. Negnevitsky, in *Artificial Intelligence: A Guide to Intelligent Systems*, Essex: Addison-Wesley/Pearson, 2011, pp. 35–38.<br/>
+\[9] J. P. Wyatt, R. G. Taylor, K. de Wit, and E. J. Hotton, *Oxford Handbook of Emergency Medicine*, Oxford University Press, 2020.<br/>
+\[10] J. B. Leikin and F. P. Paloucek, *Poisoning and Toxicology Handbook*, Boca Raton: CRC Press, 2008.<br/>
+\[11] ES-Builder Web - McGoo Software. \[Online]. Available: [https://www.mcgoo.com.au/html/es-builder\_web.php](https://www.mcgoo.com.au/html/es-builder_web.php). \[Accessed: 31-May-2021].<br/>
+\[12] “Coronavirus,” World Health Organization. \[Online]. Available: [https://www.who.int/health-topics/coronavirus](https://www.who.int/health-topics/coronavirus). \[Accessed: 31-May-2021].<br/>
 \[13] “What are NPS?,” United Nations Office on Drugs and Crime. \[Online]. Available: [https://www.unodc.org/LSS/Page/NPS](https://www.unodc.org/LSS/Page/NPS). \[Accessed: 15-Jul-2021].
 
 ## Appendix: DrugES Usefulness and Ease of Use Questionnaire
