@@ -7,7 +7,7 @@
 
 ## Introduction
 
-This report describes an expert system called **DrugES** that provides quick diagnosis and treatment advice for suspected substance abuse poisoning patients during pre-hospital emergency care. *Pre-hospital emergency care* refers to the care offered to patients by emergency medical responders before reaching the hospital \[1].
+This report describes an expert system called **<a href="http://www.mcgoo.com.au/esbuilder/viewer/viewES.php?es=732ee6cdb5a3afda870fc031627bddb3" target="_blank">DrugES</a>** that provides quick diagnosis and treatment advice for suspected substance abuse poisoning patients during pre-hospital emergency care. *Pre-hospital emergency care* refers to the care offered to patients by emergency medical responders before reaching the hospital \[1].
 
 It can be challenging to diagnose suspected substance abuse poisoning in a pre-hospital setting (e.g. inside an ambulance) when there is limited access to medical equipment. However, knowledge of the type of substance abuse poisoning can provide valuable life-saving medical treatment for patients.
 
