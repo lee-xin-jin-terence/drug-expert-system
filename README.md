@@ -1,6 +1,6 @@
 > **Academic Research Paper – Expert Systems**  <br/>
 > This report was submitted as part of a university project exploring Expert Systems applications in pre-hospital emergency medical decision support.  <br/>
-> Visit <a href="http://www.mcgoo.com.au/esbuilder/viewer/viewES.php?es=732ee6cdb5a3afda870fc031627bddb3" target="_blank">DrugES</a> to explore the system.
+> Visit <a href="http://www.mcgoo.com.au/esbuilder/viewer/viewES.php?es=732ee6cdb5a3afda870fc031627bddb3" target="_blank">DrugES</a> to explore the system. <br/>
 > **Author:** Terence Lee
 
 # Expert System for Diagnosing and Advising Treatment for Substance Poisoning
