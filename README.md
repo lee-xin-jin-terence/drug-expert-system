@@ -1,5 +1,6 @@
-> **Academic Research Paper – Affective Computing**<br/>
-> This report was submitted as part of a university project exploring Affective Computing applications in emergency medical decision support.
+> **Academic Research Paper – Affective Computing**  <br/>
+> This report was submitted as part of a university project exploring Affective Computing applications in emergency medical decision support.  <br/>
+> Visit <a href="http://www.mcgoo.com.au/esbuilder/viewer/viewES.php?es=732ee6cdb5a3afda870fc031627bddb3" target="_blank">DrugES</a> to explore the system.
 > **Author:** Terence Lee
 
 # Expert System for Diagnosing and Advising Treatment for Substance Poisoning
@@ -146,7 +147,7 @@ This questionnaire gauges the usefulness and ease of use of DrugES. Please circl
 
 ## User Guide
 
-1. Open browser: [http://www.mcgoo.com.au/esbuilder/viewer/viewES.php?es=732ee6cdb5a3afda870fc031627bddb3](http://www.mcgoo.com.au/esbuilder/viewer/viewES.php?es=732ee6cdb5a3afda870fc031627bddb3)
+1. Open browser: <a href="http://www.mcgoo.com.au/esbuilder/viewer/viewES.php?es=732ee6cdb5a3afda870fc031627bddb3" target="_blank">DrugES</a>
 2. Click **Search Expert System**.
 3. Answer Yes/No prompts (<2 min).
 4. View diagnosis & treatment advice.
