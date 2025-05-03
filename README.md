@@ -1,3 +1,7 @@
+> **Academic Research Paper – Affective Computing**<br/>
+> This report was submitted as part of a university project exploring Affective Computing applications in emergency medical decision support.
+> **Author:** Terence Lee
+
 # Expert System for Diagnosing and Advising Treatment for Substance Poisoning
 
 ## Introduction
@@ -24,7 +28,7 @@ Diagnosing substance abuse poisoning in a pre-hospital setting (e.g., inside an 
 
 * **England (2019):** >18,000 hospitalisations due to drug misuse (NHS) \[4].
 * **USA (2019):** >70,000 overdose‑related deaths (CDC) \[5].
-* **Canada (2020):** \~81,000 hospitalisations from substance abuse (CIHI) \[6].
+* **Canada (2020):** <br/>\~81,000 hospitalisations from substance abuse (CIHI) \[6].
 
 ### Related Work
 
@@ -104,7 +108,7 @@ Overall, DrugES successfully demonstrates a rule‑based expert system for pre-h
 \[10] Leikin JB & Paloucek FP, *Poisoning and Toxicology Handbook*, 2008.<br/>
 \[11] ES-Builder Web, McGoo Software. Accessed 31 May 2021.<br/>
 \[12] WHO. “Coronavirus.” Accessed 31 May 2021.<br/>
-\[13] UNODC. “What are NPS?” Accessed 15 Jul 2021.<br/>
+\[13] UNODC. “What are NPS?” Accessed 15 Jul 2021.
 
 ## Appendix: DrugES Usefulness and Ease of Use Questionnaire
 
